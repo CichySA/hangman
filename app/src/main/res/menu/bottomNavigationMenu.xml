@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/startMenuItem"
+        android:enabled="true"
+        android:icon="@drawable/outline_play_circle_24"
+        android:title="@string/start" />
+    <item
+        android:id="@+id/infoMenuItem"
+        android:enabled="true"
+        android:icon="@drawable/outline_info_24"
+        android:title="@string/info" />
+    <item
+        android:id="@+id/settingsMenuItem"
+        android:enabled="true"
+        android:icon="@drawable/outline_settings_24"
+        android:title="@string/settings" />
+</menu>

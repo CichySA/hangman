@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Hangman</string>
     <string name="word_length">Word length:&#160;</string>
-    <string name="start">START</string>
+    <string name="start">Start</string>
+    <string name="info">Info</string>
+    <string name="settings">Settings</string>
 </resources>

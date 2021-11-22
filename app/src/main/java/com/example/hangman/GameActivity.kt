@@ -3,6 +3,7 @@ package com.example.hangman
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewTreeObserver
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
@@ -32,6 +33,19 @@ class GameActivity : AppCompatActivity() {
         hangmanView = findViewById(R.id.hangmanImage)
         inflater.inflate(R.layout.keyboard, buttonRowLayout)
         iterateButtons(::addButtonListener)
+        buttonRowLayout.viewTreeObserver.addOnGlobalLayoutListener(object :
+            ViewTreeObserver.OnGlobalLayoutListener {
+            override fun onGlobalLayout() {
+                buttonRowLayout.viewTreeObserver.removeOnGlobalLayoutListener(this)
+
+                var row = buttonRowLayout.getChildAt(1) as LinearLayout
+                var paddingH = row.width * 1 / 10
+                row.setPadding(paddingH / 2, 0, paddingH / 2, 0)
+                row = buttonRowLayout.getChildAt(2) as LinearLayout
+                paddingH = row.width * 3 / 10
+                row.setPadding(paddingH / 2, 0, paddingH / 2, 0)
+            }
+        })
     }
 
     override fun onStart() {

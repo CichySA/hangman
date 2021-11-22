@@ -13,6 +13,7 @@ const val DEFAULT_WORD_LENGTH = 5
 class MainActivity : AppCompatActivity() {
     var wordLen: Int = DEFAULT_WORD_LENGTH
     private val words: HashMap<String, Int> = HashMap()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
