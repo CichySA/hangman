@@ -10,9 +10,4 @@
         android:enabled="true"
         android:icon="@drawable/outline_info_24"
         android:title="@string/info" />
-    <item
-        android:id="@+id/settingsMenuItem"
-        android:enabled="true"
-        android:icon="@drawable/outline_settings_24"
-        android:title="@string/settings" />
 </menu>
