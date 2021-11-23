@@ -9,82 +9,82 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnQ"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:clickable="false"
             android:text="q" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnW"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="w" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnE"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="e" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnR"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="r" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnT"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="t" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnY"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="y" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnU"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="u" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnI"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="i" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnO"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="o" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnP"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -96,74 +96,74 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnA"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:clickable="true"
             android:text="a" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnS"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="s" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnD"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="d" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnF"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="f" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnG"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="g" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnH"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="h" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnJ"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="j" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnK"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="k" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnL"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -176,65 +176,62 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnZ"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:clickable="false"
             android:text="z" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnX"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="x" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnC"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="c" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnV"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="v" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnB"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="b" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnN"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="n" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnM"
-            style="@style/Widget.AppCompat.Button.Borderless"
+            android:padding="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="m" /><![CDATA[
-
-        style="@style/Widget.AppCompat.Button.Borderless"/>
-    ]]>
+            android:text="m" />
     </LinearLayout>
     <!--
 </LinearLayout>

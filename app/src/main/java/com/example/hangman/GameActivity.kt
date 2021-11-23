@@ -19,9 +19,17 @@ class GameActivity : AppCompatActivity() {
     private var revealedWord: CharArray? = null
     private var uniqueLetterSet: MutableSet<Char>? = null
     private val images = intArrayOf(
-        R.drawable.image0of10, R.drawable.image1of10, R.drawable.image2of10,
-        R.drawable.image3of10, R.drawable.image4of10, R.drawable.image5of10, R.drawable.image6of10,
-        R.drawable.image7of10, R.drawable.image8of10, R.drawable.image9of10, R.drawable.image10of10
+        R.drawable.image0of10_transparent,
+        R.drawable.image1of10_transparent,
+        R.drawable.image2of10_transparent,
+        R.drawable.image3of10_transparent,
+        R.drawable.image4of10_transparent,
+        R.drawable.image5of10_transparent,
+        R.drawable.image6of10_transparent,
+        R.drawable.image7of10_transparent,
+        R.drawable.image8of10_transparent,
+        R.drawable.image9of10_transparent,
+        R.drawable.image10of10_transparent
     )
     private var hangmanView: ImageView? = null
 
